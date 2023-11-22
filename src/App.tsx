@@ -1,4 +1,4 @@
-import desktop from '../public/vite.svg'
+import desktop from '../public/desktop_tutorics.svg'
 import './App.css'
 import logo from './assets/tutorics.svg'
 
