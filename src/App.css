@@ -9,7 +9,8 @@
   margin-top: 10vh;
   padding: 8px;
   height: 50vh;
-  border: blue 3px double;
+  border-radius: 40px;
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
 
 .logo {
