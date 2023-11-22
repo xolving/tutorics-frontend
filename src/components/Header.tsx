@@ -1,9 +1,12 @@
-import logo from '/icon.svg'
+import './Header.css'
+import tutorics from '/tutorics.svg'
 
 export function Header (){
     return (
-        <a href="https://xolving.com" target="_blank">
-            <img src={logo} className="logo" alt="xolving logo" />
-        </a>
+        <>
+            <a href="https://xolving.com" target="_blank">
+                <img src={tutorics} className="logo" alt="xolving logo" />
+            </a>
+        </>
     )
 }
