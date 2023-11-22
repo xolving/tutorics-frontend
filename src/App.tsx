@@ -1,6 +1,6 @@
-import desktop from '../public/desktop_tutorics.svg'
 import './App.css'
 import logo from './assets/tutorics.svg'
+import desktop from '/desktop_tutorics.svg'
 
 function App() {
   return (
