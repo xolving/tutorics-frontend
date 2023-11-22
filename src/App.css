@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+.desktop_image {
+  margin-top: 10vh;
+  padding: 8px;
+  height: 50vh;
+  border: blue 3px double;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
