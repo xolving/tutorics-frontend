@@ -5,22 +5,7 @@
   text-align: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes shadowAnimation {
+@keyframes shadowBlue {
   0% {
     filter: drop-shadow(0 0 2em #646cff);
   }
@@ -32,13 +17,28 @@
   }
 }
 
+@keyframes shadowMint {
+  0% {
+    filter: drop-shadow(0 0 2em #64aaff);
+  }
+  50% {
+    filter: drop-shadow(0 0 2em #64e0ff);
+  }
+  100% {
+    filter: drop-shadow(0 0 2em #64aaff);
+  }
+}
+
+.desktop_image:hover {
+  animation: shadowMint 0.7s infinite;
+}
+
 .desktop_image {
   margin-top: 10%;
   padding: 8px;
   height: 50vh;
   border-radius: 40px;
-  filter: drop-shadow(0 0 2em #646cffaa);
-  animation: shadowAnimation 2s infinite;
+  animation: shadowBlue 2s infinite;
 }
 
 .h3 {
